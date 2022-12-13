@@ -4,5 +4,8 @@ require_relative "bofa/version"
 
 module Bofa
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.deez_nuts
+    'deez nuts'
+  end
 end
